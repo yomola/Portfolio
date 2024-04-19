@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeyomola Adebayo Portfolio Website</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body class="sedan-regular-italic">
+        <!--Navigation Bar-->
+        <nav id="topmost">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--End of Navigation Bar-->
+
+        <!--Section for Jumbotron-->
+        <section class="jumbotron-container">
+            <video autoplay muted loop>
+                <source src="Black hands typing.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+            <div class="middle">
+                <div class="jumbotron-words">
+                    <h1 class="sedan-regular">Hi! ...I am Adeyomola.</h1>
+                    <p> A web developer.</p>
+                </div>    
+            </div>
+            
+        </section>
+        <!--End of Jumbotron-->
+
+        <!-- More details about me-->
+        <section id="home">
+            <div class="row" id="details-about-me">
+                <div class="column" id="profile-picture">
+                    <img src="images/adeyomola.jpg" alt="Adeyomola Adebayo" id="adeyomola">
+                </div>
+                <div class="column" id="about-me">
+                    <h2 class="sedan-regular-italic">Welcome to my portfolio!</h2>
+                    <p class="sedan-regular">
+                        I'm Adeyomola Adebayo, a passionate technology teacher and 
+                        aspiring full-stack developer. With a strong foundation in HTML5,
+                        CSS3, JavaScript, and SQL. I craft immersive web experiences that captivate 
+                        and engage users.
+                    </p>
+                    <p class="sedan-regular">
+                       Join me on this journey as I continue to expand my 
+                        skill set and make meaningful contributions to the ever-evolving tech landscape. 
+                        Let's build a future where innovation knows no bounds.
+                    </p>
+                    
+                </div>
+              </div>
+        </section>
+        <!-- End of more details about me-->
+
+        <!-- Section to  display of some of my creations-->
+        <section id="work">
+                <h2>These are some of my works</h2>
+                <div class="row">
+                    <div id="one" class="column">
+                        <a href="https://codepen.io/yomola/full/MWRPKZe" target="_blank"><img src="images/1.png" alt="one-page-website-screenshot"></a>
+                    </div>
+                    <div id="two" class="column">
+                        <a href="https://codepen.io/yomola/full/WNWawow" target="_blank"><img src="images/2.png" alt="academycinemas-screenshot"></a>
+                    </div>
+                </div>
+        </section>
+        <!--End of creation display-->
+
+        <!--Section for contact display and form-->
+            <section id="contact">
+                <h2>Let's work together...</h2>
+                <div class="row">
+                    <div id="social-media" class="column">
+                        <ul>
+                            <li><a href="https://twitter.com/Yomola" target="_blank"><img src="images/Twitter.png" alt="twitter logo" class="logo"></a></li>
+                            <li><a href="https://www.facebook.com/Adeyomola" target="_blank"><img src="images/facebook.png" alt="facebook logo" class="logo"></a></li>
+                            <li><a href="https://www.linkedin.com/in/yomola/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo" class="logo"></a></li>
+                            <li><a href="https://github.com/yomola" target="_blank"><img src="images/github.png" alt="github logo" class="logo"></a></li>
+                        </ul>
+                    </div>
+                    <div id="form" class="column">
+                        <form action="" method="post">
+                            <label for="name">Name: <input type="text" id="name"></label>
+                            <label for="email">Email: <input type="email" id="email"></label>
+                            <label for="message">Message: <textarea name="message" id="message" cols="30" rows="10" placeholder="Please type your message here"></textarea></label>
+                            <input type="submit" value="Send" id="send">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        <!--End of contact display and form-->
+
+        <!--footer-->
+        <footer>
+            <p class="sedan-regular">
+                Created by Adeyomola Adebayo &copy; 2024. A student of The <a href="https://www.pitman-training.com/our-courses/software-web-development/" target="_blank">Pitman Training Institute &reg;</a> Newcastle UK.
+            </p>
+            <p class="sedan-regular">
+                2 Collingwood St, Newcastle upon Tyne NE1 1JF 
+            </p>
+        </footer>
+        
+        <!--End of footer-->
+</body>
+</html>

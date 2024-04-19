@@ -1,0 +1,219 @@
+/* Google Font Styles */
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+body{
+    margin: 0;
+    background-color: rgb(190, 158, 114); 
+    color: #fff;
+}
+
+
+/* styling of the navigation bars */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(190, 158, 114);
+}
+li{
+    float: left;
+    border-right: 1px solid #fff;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: larger;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(190, 158, 114);;
+  
+    
+}
+.active{
+    background-color: #2e2d2d;
+}
+
+/*  Unique to the topmost navigation bar */
+#topmost{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px double #fff;
+}
+@media screen and (max-width: 600px) { 
+    ul li {
+        float: none;
+    }
+  }
+/* End of Styling Navigation bar */
+
+ /* The video overlayed with Text*/
+ .jumbotron-container{
+    position: relative;
+    width: 100%;
+ }
+
+ video{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+ }
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.jumbotron-container:hover video {
+    opacity: 0.3;
+  }
+  
+  .jumbotron-container:hover .middle {
+    opacity: 1;
+  }
+  .jumbotron-words {
+    background-color: rgba(190, 158, 114, 0.3);
+    color: white;
+    font-size: 40px;
+    padding: 16px 32px;
+    z-index: 1;
+  }
+  /* End of Video and the Overlaid Text */
+
+  img{
+    width: 100%;
+    display: block;
+    transition: width 3s;
+    
+    
+  }
+  img:hover{
+    width: 90%;
+  }
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    transition: transform 2s;
+}
+h2:hover{
+    transform: rotate(3deg);
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.row {
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 3px;
+  }
+  .column #adeyomola{
+    width: 50%;
+    border-radius:50px 200px;
+    display: block;
+    transition: transform 3s;
+  }
+  #adeyomola:hover{
+    transform: rotate(20deg);
+  }
+  #work > .row{
+    justify-content: space-around;
+  }
+  #work > .row #one,
+  #work > .row #two{
+    padding: 5px;
+    border-radius: 90%;
+  }
+
+  label,input,textarea{
+    display: block;
+    width: 100%;
+    margin: 2px 5px 6px 2px ;
+  }
+ 
+  form{
+    padding: 15px;
+  }
+
+  footer,footer p{
+    text-align: center;
+  }
+
+  label {
+    font-size: x-large;
+    font-style: normal;
+  }
+  input{
+    line-height: 2em;
+  }
+
+  .logo{
+    width: 25%;
+    height: 25%;
+    display: inline;
+    border-radius: 100%;
+    transition: transform 3s;
+  }
+  .logo:hover{
+    width: 25%;
+    height: 25%;
+    transform: rotate(15deg);
+  }
+  
+  section{
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  input:hover, textarea:hover {
+    box-shadow: 0 0 5px #00004d inset
+  }
+
+   input[type="submit"]{
+    transition: transform 2s;
+   }
+  input[type="submit"]:hover{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.01);
+    background-color: antiquewhite;
+  }
