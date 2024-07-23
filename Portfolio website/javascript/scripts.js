@@ -20,6 +20,7 @@ function currentSlides(n){
 }
 
 function showSlides(n){
+    let index = 0;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     if (n > slides.length){slideIndex = 1}; //if n(the number passed into the function is greater than the length of the array "slides", the slideIndex is setn to 1)
