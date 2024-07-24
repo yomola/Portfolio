@@ -112,7 +112,6 @@ ul li a:hover{
   img{
     filter: grayscale(70%);
     border-radius: 8px;
-    width: 100%;
     display: block;
     margin: auto;
     max-width: 100%;
@@ -139,7 +138,6 @@ p{
 
 .row {
     display: flex;
-    
     justify-content: center;
   }
   
