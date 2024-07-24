@@ -252,7 +252,7 @@ p{
   }
   #Slideshow {
     position: relative;
-    max-width: 1000px;
+    max-width: auto;
     margin: auto;
 }
   .mySlides{
