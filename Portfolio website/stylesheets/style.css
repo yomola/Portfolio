@@ -177,6 +177,33 @@ p{
   form{
     padding: 15px;
   }
+  /*Contact form styling*/
+    .form-container{
+      width: 41vw;
+    }
+    .Pop_Up_Button{
+      position: sticky;
+      top: 50%;
+      bottom: 1.75vw;
+      right: 1.75vw;
+      width: 40vw;
+      -webkit-animation: movePopup 5s;
+      animation: movePopup 5s;
+    }
+
+    @keyframes movePopup {
+      from {right: -40vw;}
+      to {right: 1.75vw;}
+    }
+
+    .form-popup{
+      z-index: 8;
+      display: none;
+      position: fixed;
+      bottom: 0.5vw;
+      right: 0.5vw;
+    }
+  /*End of Contact form styling*/
 
   footer,footer p{
     text-align: center;

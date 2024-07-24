@@ -1,10 +1,13 @@
 //These  functions open and close the contact form
 function openForm(){
     document.getElementById("myForm").style.display ="block";
+    document.getElementsByClassName("toggle")[0].style.display="none";
 }
 function closeForm(){
     document.getElementById("myForm").style.display="none";
+    document.getElementsByClassName("toggle")[0].style.display="block";
 }
+
 //This document displays the first image in the slideshow when the page loads
 var slideIndex = 1;
 showSlides(slideIndex);

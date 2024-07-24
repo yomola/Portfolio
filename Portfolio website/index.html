@@ -122,14 +122,17 @@
                             <li><a rel="noopener" href="https://github.com/yomola" target="_blank"><img src="../images/github.png" alt="github logo" class="logo"></a></li>
                         </ul>
                     </div>
-                    <div id="form" class="column">
-                        <form action="" method="post" class="form-container">
-                            <label for="name">Name: <input type="text" id="name" required></label>
-                            <label for="email">Email: <input type="email" id="email" required></label>
-                            <label for="message">Message: <textarea required name="message" id="message" cols="30" rows="10" placeholder="Please type your message here"></textarea></label>
-                            <input type="submit" value="Send" id="send" class="btn">
-                            <input type="button" class="btn cancel" value="Close" onclick="closeForm()">
-                        </form>
+                    <div id="Contact" class="column">
+                        <input type="button" value="Contact" class="Pop_Up_Button toggle" onclick="openForm()">
+                        <div id="myForm" class="form-popup">
+                            <form action="" method="post" class="form-container">
+                                <label for="name">Name: <input type="text" id="name" required></label>
+                                <label for="email">Email: <input type="email" id="email" required></label>
+                                <label for="message">Message: <textarea required name="message" id="message" cols="30" rows="10" placeholder="Please type your message here"></textarea></label>
+                                <input type="submit" value="Send" id="send" class="btn">
+                                <input type="button" class="btn cancel" value="Close" onclick="closeForm()">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </section>
