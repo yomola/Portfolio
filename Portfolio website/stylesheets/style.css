@@ -120,9 +120,7 @@ ul li a:hover{
     
     
   }
-  img:hover{
-    width: 90%;
-  } 
+  
 h2{
     margin-left: auto;
     margin-right: auto;
@@ -311,7 +309,7 @@ p{
   bottom: 0; /* This property sets the text at the bottom of the image */
   width: 100%; /* The element covers the full width of the image */
   text-align: center; /* The text is center aligned within the image */
-  font-family: Perpetua, Rockwell Extra Bold;
+  font-family: 'Perpetua', 'Rockwell Extra Bold';
   letter-spacing: .1vw; /* This gives slight spacing between the letters */
   font-size: 1.5vw; /* Font size is relative to the size of the viewport width */
   background-color: rgba(0, 0, 0, 0.75); /* Gives a slightly transparent black background */
