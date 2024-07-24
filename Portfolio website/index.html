@@ -125,9 +125,9 @@
                     <div id="Contact" class="column">
                         <input type="button" value="Contact" class="Pop_Up_Button toggle" onclick="openForm()">
                         <div id="myForm" class="form-popup">
-                            <form action="" method="post" class="form-container">
-                                <label for="name">Name: <input type="text" id="name" required></label>
-                                <label for="email">Email: <input type="email" id="email" required></label>
+                            <form action="https://formspree.io/f/xgegpgkg" method="POST" class="form-container">
+                                <label for="name">Name: <input type="text" id="name" name="name" required></label>
+                                <label for="email">Email: <input type="email" id="email"  name="email" required></label>
                                 <label for="message">Message: <textarea required name="message" id="message" cols="30" rows="10" placeholder="Please type your message here"></textarea></label>
                                 <input type="submit" value="Send" id="send" class="btn">
                                 <input type="button" class="btn cancel" value="Close" onclick="closeForm()">
