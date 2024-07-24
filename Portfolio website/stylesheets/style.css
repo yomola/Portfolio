@@ -109,7 +109,7 @@ ul li a:hover{
   }
   /* End of Video and the Overlaid Text */
 
-  img{
+  /* img{
     filter: grayscale(70%);
     border-radius: 8px;
     display: block;
@@ -118,7 +118,7 @@ ul li a:hover{
     max-height: 100%;
     
     
-  }
+  }*/
   
 h2{
     margin-left: auto;
